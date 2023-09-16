@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LearnifyFrontend/static/css/main.8b0dcd5b.css",
+    "main.js": "/LearnifyFrontend/static/js/main.9d06f750.js",
+    "static/media/LEANIFYABOUT.mp4": "/LearnifyFrontend/static/media/LEANIFYABOUT.ae97147ac2b681a34092.mp4",
+    "static/media/LEARNIFYINTRO.mp4": "/LearnifyFrontend/static/media/LEARNIFYINTRO.bb693193566057af1429.mp4",
+    "static/media/brandlogo.png": "/LearnifyFrontend/static/media/brandlogo.ede1d7625c211d1d9a4b.png",
+    "static/media/cursor.png": "/LearnifyFrontend/static/media/cursor.06280b01c33e5b9f05f6.png",
+    "index.html": "/LearnifyFrontend/index.html",
+    "main.8b0dcd5b.css.map": "/LearnifyFrontend/static/css/main.8b0dcd5b.css.map",
+    "main.9d06f750.js.map": "/LearnifyFrontend/static/js/main.9d06f750.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b0dcd5b.css",
+    "static/js/main.9d06f750.js"
+  ]
+}
