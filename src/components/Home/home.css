@@ -1,0 +1,330 @@
+.container{
+    height: 50vh;
+    margin-top: 6rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* .main-title {
+  
+  animation: none;
+
+ 
+  text-shadow: 0 0 8px #c25ef4;
+
+  
+  position: relative;
+  overflow: hidden;
+}
+
+
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+/* .main-title { */
+  /* font-size: 80px;
+  
+  text-align: center;
+  animation: neon .08s ease-in-out infinite alternate;
+}
+
+/* 
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(114, 177, 244, 0.52),
+    0 0 21px rgba(84, 158, 236, 0.92),
+    0 0 34px rgba(156, 55, 244, 0.78),
+    0 0 54px rgba(171, 30, 242, 0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(195, 102, 238, 0.58),
+    0 0 22px rgba(175, 83, 240, 0.84),
+    0 0 38px rgba(194, 41, 241, 0.88),
+    0 0 60px rgb(215, 7, 247);
+  }
+}  */
+
+
+.btn-glow{
+  animation: shadow-pulse 1.5s infinite;
+  
+}
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(193, 26, 234, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(180, 31, 225, 0);
+     }
+}
+ 
+
+
+ .logo {
+   
+    width:30px ;
+    align-self: center;
+    height:30px;
+    filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
+    animation: moveUpDown 3s linear infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px); /* Adjust the vertical distance as needed */
+    }
+  }
+
+  
+
+Button:hover{
+    background-color: rgb(121, 29, 206);
+  
+}
+.sponsor-icons{
+    margin-top: 5rem;
+    color:rgb(253, 253, 253);
+    font-size: 3rem;
+    transition: color 1s;
+    align-items: center;
+    align-self: center;
+}
+
+
+.sponsor-icons:hover{
+    color:rgb(200, 154, 246);
+    animation: moveUpDown 3s linear infinite;
+}
+
+.container2{
+   
+    width:100%;
+    margin-top: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+   
+   
+}
+
+
+.container2 video {
+    border : 1px solid rgba(0,0,0,0.18);
+    width:100%;
+    box-shadow: 10px 10px 10px rgb(14, 1, 12);
+    border-radius: 5px;
+    outline: none;
+   
+
+    
+}
+
+.container3{
+    margin-top: 10rem;
+    height: 50vh;
+    width:100%;
+    margin-top: 0;
+
+    display:flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* gradient animation for learnify and tagline  */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+      
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* animation ends here  */
+
+/* Media-Queries for Responsiveness  */
+@media screen and (max-width : 600px){
+
+    .container{
+        
+        margin-top: 22rem;
+    }
+    .container2{
+        height: unset;
+        padding:5vh 0;
+        margin-left: 50px;
+        margin-bottom: 200px;
+        margin-top:-20px;
+        /* margin-bottom: 150px; */
+
+       
+    }
+    .container2 video {
+
+        border : 1px solid rgba(0,0,0,0.18);
+        width:100%;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        outline: none;
+        /* margin-bottom: 2rem; */
+
+    }
+
+.container3{
+    height: 100vh;
+    width:100%;
+    margin-top: -100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.learnify{
+   margin-bottom: 1rem;
+   font-size: 3rem;
+}
+
+
+}
+
+/* courses card hover effect  */
+.course{
+  width:250px;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+.course:hover{
+  transform: translateY(-10px);
+}
+
+/* login page brand image  box shadow css */
+.loginimg{
+  height: 100px;
+  width: 100px;
+  filter: drop-shadow(5px 5px 15px rgb(191, 0, 255));
+}
+
+/* about page social icons  */
+
+.youtube:hover{
+  background:hsl(340, 100%, 50%);
+  color: white;
+  size:50px;
+  border-radius: 50%;
+  animation: moveUpDown 3s linear infinite;
+}
+.linkdein:hover{
+  background:#4586ef;
+  color: white;
+  border-radius: 50%;
+
+  animation: moveUpDown 3s linear infinite;
+}
+.insta:hover{
+  color: white;
+  border-radius: 50%;
+  border-radius: 50%;
+  background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  animation: moveUpDown 3s linear infinite;
+
+}
+.github:hover{
+  color: white;
+  border-radius: 50%;
+
+  background:#180465;
+  animation: moveUpDown 3s linear ;
+}
+
+/* learnify info about  */
+.learnify-about:hover{
+ 
+ 
+  transform: scale(1.1, 1.1);
+  padding: 10px;
+
+  animation: moveUpDown 3s linear infinite;
+  
+}
+
+/* ColorModeSwitcher.css */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: spin 2s linear infinite; 
+}
+
+/* About  Section  */
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  75% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.aditya:hover{
+  animation: moveUp 0.4s ease-in-out forwards;
+}
+
+
