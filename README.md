@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LEARNIFY
 
-## Available Scripts
 
-In the project directory, you can run:
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%; padding-right: 10px;">
+     <img width="1440" alt="Screenshot 2023-09-16 at 3 07 45 PM" src="https://github.com/Adityalad-25/LearnifyFrontend/assets/97255480/c1ed0c47-a039-4600-b3c6-a2cfbb92d817">
+    </td>
+    <td style="width: 50%; padding-left: 10px;">
+    <img width="1440" alt="Screenshot 2023-09-16 at 3 09 37 PM" src="https://github.com/Adityalad-25/LearnifyFrontend/assets/97255480/66125635-ecee-41ec-a432-ac15e5f0b419">
+ </td>
+  </tr>
+</table>
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# About Learnify 
+ ## Learnify, is a MERN Stack startup web app, akin to an Online Subscription Course Streaming Platform. 
+<br>
+ 👉 It boasts a User-Friendly UI with React.js and Chakra UI, offering multi-theme options. 
+<br>
+  👉 MongoDB stores data, while Node.js and Express.js power the robust backend, secured with JWT. 
+<br>
+ 👉 Intuitive Content Management System for admins to manage users and courses, complete with real-time data visualization using Chart.js in the Admin 
+Dashboard.
+<br>
+ 👉 Additionally, seamless and secure payments are facilitated through Razorpay integration.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
