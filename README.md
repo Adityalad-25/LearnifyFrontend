@@ -1,6 +1,6 @@
 
 # LEARNIFY-FRONTEND
- ## View Project : -<head><a href="https://learnify-frontend-seven.vercel.app/">Learnify.com</a></head> 
+ ## View Project : -<head><a href="https://learnify-frontend-seven.vercel.app/">learnify-frontend-seven.vercel.app</a></head> 
 
 <table style="width: 100%;">
   <tr>
